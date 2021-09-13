@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_tab"
+    app:startDestination="@id/fragment_home">
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.hammer_systems.ui.home.HomeFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home">
+<!--        <argument-->
+<!--            android:name="id"-->
+<!--            app:argType="integer"-->
+<!--            android:defaultValue="0"/>    -->
+
+
+<!--        <action-->
+<!--            android:id="@+id/to_film_details"-->
+<!--            app:destination="@id/film_detailed"/>-->
+    </fragment>
+
+</navigation>
